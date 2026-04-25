@@ -4,7 +4,7 @@ services:
     container_name: cs2
     environment:
       # Server
-      SRCDS_TOKEN: 35CF4E891A71DE8BBB7266E180D09DE1                  
+      SRCDS_TOKEN: 35CF4E891A71DE8BBB7266E180D09DE1
       DEBUG: 0
       STEAMAPPVALIDATE: 0
       CS2_SERVERNAME: "Remi's Nuclear Nutsack"
@@ -17,33 +17,33 @@ services:
       CS2_PW: "remis"
       CS2_MAXPLAYERS: 10
       CS2_ADDITIONAL_ARGS: ""
-      CS2_CFG_URL: ""
+      CS2_CFG_URL: "https://github.com/Reggles44/cs2-surf-server/raw/refs/heads/main/cs2.cfg.tgz"
 
       # Game modes
       CS2_GAMEALIAS: "custom"
       # CS2_GAMETYPE: 3
       # cs2_gamemode: 0
-      # CS2_MAPGROUP: mg_active      
-      # CS2_STARTMAP: de_inferno     
-      
+      # CS2_MAPGROUP: mg_active
+      # CS2_STARTMAP: de_inferno
+
       # Workshops
-      CS2_HOST_WORKSHOP_COLLECTION: "3711124132"
+      CS2_HOST_WORKSHOP_COLLECTION: 3711124132
       CS2_HOST_WORKSHOP_MAP: 442116172
-      
+
       # Bots
-      CS2_BOT_DIFFICULTY: ""          
+      CS2_BOT_DIFFICULTY: ""
       CS2_BOT_QUOTA: "0"
-      CS2_BOT_QUOTA_MODE: ""          
-      
+      CS2_BOT_QUOTA_MODE: ""
+
       # TV
-      TV_AUTORECORD: 0             
-      TV_ENABLE: 0                 
-      TV_PORT: 27020               
-      TV_PW: remis              
-      TV_RELAY_PW: remis        
-      TV_MAXRATE: 0                
-      TV_DELAY: 0                  
-      
+      TV_AUTORECORD: 0
+      TV_ENABLE: 0
+      TV_PORT: 27020
+      TV_PW: remis
+      TV_RELAY_PW: remis
+      TV_MAXRATE: 0
+      TV_DELAY: 0
+
       # Logs
       CS2_LOG: on
       CS2_LOG_MONEY: 0
@@ -54,12 +54,11 @@ services:
       - cs2:/home/steam/cs2-dedicated
 
     ports:
-      - "27015:27015/tcp"           
-      - "27015:27015/udp"           
+      - "27015:27015/tcp"
+      - "27015:27015/udp"
       - "27020:27020/udp"
     stdin_open: true
     tty: true
 
 volumes:
   cs2:
-
