@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-tar --create --file --verbose cs2.cfg.tgz ./cfg
+tar -cf cs2.cfg.tgz ./cfg
