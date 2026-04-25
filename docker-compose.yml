@@ -17,7 +17,7 @@ services:
       CS2_PW: "remis"
       CS2_MAXPLAYERS: 10
       CS2_ADDITIONAL_ARGS: ""
-      CS2_CFG_URL: "https://github.com/Reggles44/cs2-surf-server/raw/refs/heads/main/cs2.cfg.tgz"
+      CS2_CFG_URL: "https://raw.githubusercontent.com/Reggles44/cs2-surf-server/refs/heads/main/cs2.cfg.tgz"
 
       # Game modes
       CS2_GAMEALIAS: "custom"
