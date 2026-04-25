@@ -20,7 +20,7 @@
 		SearchPaths
 		{
 			Game_LowViolence	csgo_lv // Perfect World content override
-      Game  csgo/addons/metamod
+			Game	csgo/addons/metamoord
 
 			Game	csgo
 			Game	csgo_imported
