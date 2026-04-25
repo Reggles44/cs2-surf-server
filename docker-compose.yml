@@ -4,7 +4,7 @@ services:
     container_name: cs2
     environment:
       # Server
-      SRCDS_TOKEN: 35CF4E891A71DE8BBB7266E180D09DE1
+      SRCDS_TOKEN: "$SRCDS_TOKEN"
       DEBUG: 0
       STEAMAPPVALIDATE: 0
       CS2_SERVERNAME: "Remi's Nuclear Nutsack"
