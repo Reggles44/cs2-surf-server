@@ -11,12 +11,12 @@ services:
       CS2_CHEATS: 0
       CS2_PORT: 27015
       CS2_SERVER_HIBERNATE: 0
-      CS2_RCON_PORT: 27015
+      CS2_RCON_PORT: ""
       CS2_LAN: 1
       CS2_RCONPW: "remis"
       CS2_PW: "remis"
       CS2_MAXPLAYERS: 10
-      CS2_ADDITIONAL_ARGS: "-usercon"
+      CS2_ADDITIONAL_ARGS: ""
       CS2_CFG_URL: "https://raw.githubusercontent.com/Reggles44/cs2-surf-server/refs/heads/main/cs2.cfg.tgz"
 
       # Game modes
@@ -39,8 +39,8 @@ services:
       TV_AUTORECORD: 0
       TV_ENABLE: 0
       TV_PORT: 27020
-      TV_PW: remis
-      TV_RELAY_PW: remis
+      TV_PW: ""
+      TV_RELAY_PW: ""
       TV_MAXRATE: 0
       TV_DELAY: 0
 
