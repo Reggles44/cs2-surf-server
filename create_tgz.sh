@@ -12,4 +12,5 @@
 # Steps
 # 1. Install CounterStrikeSharp
 # 2. 
-tar -czvf cs2.cfg.tgz -C cfg .
+tar -czvf cs2.cfg.tgz --exclude="**.git" -C cfg .
+
