@@ -27,8 +27,8 @@ services:
       # CS2_STARTMAP: de_inferno
 
       # Workshops
-      CS2_HOST_WORKSHOP_COLLECTION: 3711124132
-      CS2_HOST_WORKSHOP_MAP: 442116172
+      CS2_HOST_WORKSHOP_COLLECTION: "3711124132"
+      CS2_HOST_WORKSHOP_MAP: "surf_utopia_njv"
 
       # Bots
       CS2_BOT_DIFFICULTY: ""
