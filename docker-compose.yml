@@ -28,7 +28,7 @@ services:
 
       # Workshops
       CS2_HOST_WORKSHOP_COLLECTION: "3711124132"
-      CS2_HOST_WORKSHOP_MAP: "surf_utopia_njv"
+      CS2_HOST_WORKSHOP_MAP: "3073875025"
 
       # Bots
       CS2_BOT_DIFFICULTY: ""

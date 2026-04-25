@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-tar -cf cs2.cfg.tgz ./cfg
+tar -czvf cs2.cfg.tgz -C cfg .
