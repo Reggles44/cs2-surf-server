@@ -13,8 +13,8 @@ services:
       CS2_SERVER_HIBERNATE: 0
       CS2_RCON_PORT: 27016
       CS2_LAN: 1
-      CS2_RCONPW: "remis"
-      CS2_PW: "remis"
+      CS2_RCONPW: "$RCON_PASSWORD"
+      CS2_PW: "$SERVER_PASSWORD"
       CS2_MAXPLAYERS: 10
       CS2_ADDITIONAL_ARGS: "-usercon"
       CS2_CFG_URL: "https://raw.githubusercontent.com/Reggles44/cs2-surf-server/refs/heads/main/cs2.cfg.tgz"
