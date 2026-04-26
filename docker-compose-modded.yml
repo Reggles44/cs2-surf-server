@@ -13,7 +13,7 @@ services:
       MAXPLAYERS: 8
 
     volumes:
-      - ./data:/home/steam/cs2
+      - ./data:/home/steam/
 
     ports:
       - "27015:27015/tcp"
