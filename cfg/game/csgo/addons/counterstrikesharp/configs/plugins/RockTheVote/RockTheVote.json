@@ -15,10 +15,10 @@
     "AlwaysActive": true,
     "AlwaysActiveReminder": true,
     "ReminderInterval": 180,
-    "RtvVoteDuration": 30,
-    "MapVoteDuration": 30,
-    "CooldownDuration": 30,
-    "MapStartDelay": 30,
+    "RtvVoteDuration": 60,
+    "MapVoteDuration": 60,
+    "CooldownDuration": 0,
+    "MapStartDelay": 0,
     "VotePercentage": 51,
     "EnableCountdown": true,
     "CountdownType": "chat",
@@ -28,18 +28,18 @@
     "Enabled": true,
     "MapsToShow": 6,
     "MenuType": "ChatMenu",
-    "ChangeMapImmediately": false,
+    "ChangeMapImmediately": true,
     "VoteDuration": 120,
-    "SoundEnabled": false,
+    "SoundEnabled": true,
     "SoundPath": "sounds/vo/announcer/cs2_classic/felix_broken_fang_pick_1_map_tk01.vsnd_c",
     "TriggerSecondsBeforeEnd": 180,
     "TriggerRoundsBeforeEnd": 0,
     "DelayToChangeInTheEnd": 0,
     "IncludeExtendCurrentMap": true,
-    "EnableCountdown": false,
+    "EnableCountdown": true,
     "CountdownType": "chat",
     "ChatCountdownInterval": 30,
-    "EnableHint": false,
+    "EnableHint": true,
     "HintType": "GameHint"
   },
   "Nominate": {
@@ -60,7 +60,7 @@
     "Permission": "@css/vip"
   },
   "VoteExtend": {
-    "Enabled": false,
+    "Enabled": true,
     "EnablePanorama": true,
     "VoteDuration": 60,
     "VotePercentage": 50,
@@ -72,7 +72,7 @@
   },
   "MapChooser": {
     "Command": "mapmenu,mm",
-    "MenuType": "WasdMenu",
+    "MenuType": "ChatMenu",
     "Permission": "@css/changemap"
   },
   "General": {
