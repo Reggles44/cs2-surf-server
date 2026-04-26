@@ -27,7 +27,7 @@
   "EndOfMapVote": {
     "Enabled": true,
     "MapsToShow": 6,
-    "MenuType": "WasdMenu",
+    "MenuType": "ChatMenu",
     "ChangeMapImmediately": false,
     "VoteDuration": 120,
     "SoundEnabled": false,
@@ -45,13 +45,13 @@
   "Nominate": {
     "Enabled": true,
     "EnabledInWarmup": true,
-    "MenuType": "WasdMenu",
+    "MenuType": "ChatMenu",
     "NominateLimit": 1,
     "Permission": ""
   },
   "Votemap": {
     "Enabled": false,
-    "MenuType": "WasdMenu",
+    "MenuType": "ChatMenu",
     "VotePercentage": 50,
     "ChangeMapImmediately": true,
     "EnabledInWarmup": false,
