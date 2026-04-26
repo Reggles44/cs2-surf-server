@@ -51,7 +51,8 @@ services:
       CS2_LOG_ITEMS: 0
 
     volumes:
-      - cs2:/home/steam/cs2-dedicated
+      - ./data:/home/steam/cs2-dedicated
+
 
     ports:
       - "27015:27015/tcp"
@@ -60,5 +61,3 @@ services:
     stdin_open: true
     tty: true
 
-volumes:
-  cs2:
