@@ -11,7 +11,7 @@ services:
       CS2_CHEATS: 0
       CS2_PORT: 27015
       CS2_SERVER_HIBERNATE: 0
-      CS2_RCON_PORT: ""
+      CS2_RCON_PORT: 27015
       CS2_LAN: 1
       CS2_RCONPW: "remis"
       CS2_PW: "remis"
