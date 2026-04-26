@@ -1,9 +1,9 @@
 surf_utopia_njv:3073875025
-surf_whiteout
-surf_thicket
-surf_simpsons_go_rc2
-surf_nyx
-surf_mesa_revo
-surf_kitsune
-surf_boreas
-surf_autism
+surf_whiteout:3296258256
+surf_thicket:3468539802
+surf_simpsons_go_rc2:442116172
+surf_nyx:3129698096
+surf_mesa_revo:3076980482
+surf_kitsune:3076153623
+surf_boreas:3133346713
+surf_autism:3457501386
