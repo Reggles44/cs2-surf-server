@@ -1,4 +1,10 @@
+
+# Never Commit Env
 .env
+
+# Tools
 ARRCON
-cfg/game/csgo/addons/counterstrikesharp/dotnet/*
-data/*
+
+# Stuff going into the tarball
+data/game/csgo/addons/counterstrikesharp/dotnet/*
+data/game/csgo/addons/counterstrikesharp/plugins/SharpTimer/runtimes/*
