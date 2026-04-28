@@ -30,5 +30,4 @@ surf_mesa_aether:3125360522
 surf_mesa_mine:3462096161
 surf_nuclear:3610107123
 surf_void:3519869870
-surf_666:3521485810
 surf_lf_omnific:3660894345
