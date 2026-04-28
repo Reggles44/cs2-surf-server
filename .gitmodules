@@ -1,3 +1,0 @@
-[submodule "cfg/game/csgo/addons/counterstrikesharp/plugins/cs2_speedometer"]
-	path = cfg/game/csgo/addons/counterstrikesharp/plugins/cs2_speedometer
-	url = git@github.com:PhantomYopta/CS2_Speedometer.git

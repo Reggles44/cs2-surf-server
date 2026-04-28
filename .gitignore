@@ -1,10 +1,31 @@
+# Exclude EVERYTHING
+*
 
-# Never Commit Env
-.env
+# BUT...
 
-# Tools
-ARRCON
+# core files
+!.gitignore
+!LICENSE
+!README.md
+!create_tgz.sh
+!cs2.cfg.tgz
+!docker-compose.yml
 
-# Stuff going into the tarball
+# Scripts
+!data/post.sh
+!data/pre.sh
+
+# Server Config
+!data/game/csgo/gameinfo.gi
+!data/game/csgo/gamemodes_server.txt
+
+# Addons & Plugins
+!data/game/csgo/addons/MovementUnlocker/*
+!data/game/csgo/addons/cs2fixes-rampbugfix/*
+!data/game/csgo/addons/metamod/*
+!data/game/csgo/addons/serverlistplayersfix_mm/*
+!data/game/csgo/addons/counterstrikesharp/*
+
+# Remove runtimes
 data/game/csgo/addons/counterstrikesharp/dotnet/*
 data/game/csgo/addons/counterstrikesharp/plugins/SharpTimer/runtimes/*
