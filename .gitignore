@@ -24,7 +24,7 @@
 !data/game/csgo/addons/cs2fixes-rampbugfix/*
 !data/game/csgo/addons/metamod/*
 !data/game/csgo/addons/serverlistplayersfix_mm/*
-!data/game/csgo/addons/counterstrikesharp/**
+!data/game/csgo/addons/counterstrikesharp/**/*
 
 # Remove runtimes
 data/game/csgo/addons/counterstrikesharp/dotnet/*
