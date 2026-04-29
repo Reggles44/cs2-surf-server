@@ -11,21 +11,30 @@
 !cs2.cfg.tgz
 !docker-compose.yml
 
+# dirs
+!data
+!data/game
+
 # Scripts
 !data/post.sh
 !data/pre.sh
 
+# Game Config
+!data/game/csgo
+
 # Server Config
 !data/game/csgo/gameinfo.gi
 !data/game/csgo/gamemodes_server.txt
+!data/game/csgo/cfg/**
 
 # Addons & Plugins
-!data/game/csgo/addons/MovementUnlocker/*
-!data/game/csgo/addons/cs2fixes-rampbugfix/*
-!data/game/csgo/addons/metamod/*
-!data/game/csgo/addons/serverlistplayersfix_mm/*
-!data/game/csgo/addons/counterstrikesharp/**/*
+!data/game/csgo/addons
+!data/game/csgo/addons/MovementUnlocker/**
+!data/game/csgo/addons/cs2fixes-rampbugfix/**
+!data/game/csgo/addons/metamod/**
+!data/game/csgo/addons/serverlistplayersfix_mm/**
+!data/game/csgo/addons/counterstrikesharp/**
 
 # Remove runtimes
-data/game/csgo/addons/counterstrikesharp/dotnet/*
-data/game/csgo/addons/counterstrikesharp/plugins/SharpTimer/runtimes/*
+data/game/csgo/addons/counterstrikesharp/dotnet/**
+data/game/csgo/addons/counterstrikesharp/plugins/SharpTimer/runtimes/**
