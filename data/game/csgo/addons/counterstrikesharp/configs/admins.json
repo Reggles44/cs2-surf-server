@@ -2,9 +2,8 @@
   "Reggles": {
     "identity": "76561198058338093",
     "immunity": 100,
-    "groups": [
-      "@css/root",
-      "@css/admin"
+    "flags": [
+      "@css/root"
     ]
   }
 }
