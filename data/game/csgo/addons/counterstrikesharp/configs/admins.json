@@ -3,8 +3,8 @@
     "identity": "76561198058338093",
     "immunity": 100,
     "groups": [
-      "#css/root",
-      "#css/admin"
+      "@css/root",
+      "@css/admin"
     ]
   }
 }
