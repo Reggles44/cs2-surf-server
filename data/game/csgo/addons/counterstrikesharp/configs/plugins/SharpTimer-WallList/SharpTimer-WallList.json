@@ -1,0 +1,58 @@
+// This is an example of the default config. Do not use this file, as // comments are not valid json.
+{
+  "DatabaseType": 1,        // 1 = MySQL, 2 = SQLite, 3 = PostgreSQL
+  "DatabaseSettings": {
+    "host": "localhost",
+    "database": "database",
+    "username": "user",
+    "password": "password",
+    "port": 3306,
+    "sslmode": "none",
+    "table-prefix": ""      // Empty means you have no prefix (PlayerStats). "XX_" means your table has a prefix (XX_PlayerStats)
+  },
+  "ListSettings": {
+    "TimesTitleText": "|---- Map Times ----|",          // The title for the list
+    "TimesTextAlignment": "center",                     // Usage = left, center, right
+    "TimesCount": 5,                                    // Number of spots on the list
+    "PointsTitleText": "|--- Points Leaders ---|",      // The title for the list
+    "PointsTextAlignment": "center",                    // Usage = left, center, right
+    "PointsCount": 5,                                   // Number of spots on the list
+    "CompletionsTitleText": "|--- Maps Completed ---|", // The title for the list
+    "CompletionsTextAlignment": "center",               // Usage = left, center, right
+    "CompletionsCount": 5                               // Number of spots on the list
+  },
+  "TextSettings": {
+    "FontName": "Arial Bold",   // Examples: Arial, Arial Black, Arial Bold, Arial Narrow, Arial Unicode MS, Comic Sans MS, Courier New, HalfLife2, Lucida Console, MS Shell Dlg 2, Marlett, Stratum2, Tahoma, Times New Roman, Trebuchet MS, Verdana
+    "TitleFontSize": 26,
+    "TitleTextScale": 0.45,
+    "ListFontSize": 24,
+    "ListTextScale": 0.35,
+    "MaxNameLength": 32,
+    "TitleTextColor": "Magenta",  // The color of the title (e.g. |---- Map Times ----|)
+    "FirstPlaceColor": "Lime",
+    "SecondPlaceColor": "Coral",
+    "ThirdPlaceColor": "Cyan",
+    "DefaultColor": "White"       // The color for any line besides 1. 2. 3.
+  },
+  "Commands": {
+    "TimesListCommand": "tlist",            // The command to add a times list, in game use !tlist
+    "PointsListCommand": "plist",           // The command to add a points list, in game use !plist
+    "CompletionsListCommand": "clist",      // The command to add a completions list, in game use !clist
+    "RemoveListCommand": "rlist",           // The command to remove the closest list, in game use !rlist
+    "MoveMenuCommand": "mlist",             // The command to open the move menu, in game use !mlist
+    "ReloadConfigCommand": "reloadlistcfg", // Reloads the config and refreshes the lists
+    "UpdateConfigCommand": "updatelistcfg", // Updates your cfg to the latest version
+    "CommandPermission": "@css/root"        // The permission required to use these commands
+  },
+  "TimeBasedUpdate": false,   // True = The list will updates if there any ranking changes on an interval set in UpdateInterval. False = Update on map change only
+  "UpdateInterval": 300,      // The interval in seconds in which the list rankings will update
+  "RecordStyle": "0",         // Set the style you want the be displayed on the times lists, 0 = normal times
+  "DefaultMode": "85t",       // Set the mode you want the be displayed on the times lists (Standard, 85t, 102t, 128t, Source, Bhop, Custom). If you're using an old version of SharpTimer that doesn't have modes, leave it blank.
+  "EnableBackground": true,   // Put a background behind the list for better readability
+  "BackgroundWidth": 30.0,    // How wide the background will be (I'll update to auto fit to text down the road)
+  "RemoveDistance": 200,      // How close you need to be to a list for it to be picked up by the removal command
+  "MenuType": "WasdMenu",     // The type of menu that will be used for the !mlist command. WasdMenu, ChatMenu, CenterHtmlMenu
+  "SaveToDb": false,          // True = save your list coordinates to a database tables named `st_lists`. False = save them to a local json in the plugin folder
+  "AutoUpdateConfig": false,  // True = config automatically updates when you update to a new version of the plugin. False = Manually update your config
+  "ConfigVersion": 8
+}
