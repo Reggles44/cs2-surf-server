@@ -31,3 +31,11 @@ surf_mesa_mine:3462096161
 surf_nuclear:3610107123
 surf_void:3519869870
 surf_lf_omnific:3660894345
+surf_southpark:3398896393
+surf_stonks:3434235475
+surf_aether:3610921844
+surf_zenith:3444526271
+surf_no_so_hentai:3136164027
+surf_lux:3280013431
+surf_activation:3634942758
+surf_dragon:3560017438
