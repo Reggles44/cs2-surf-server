@@ -1,6 +1,7 @@
 services:
   cs2-server:
     image: joedwards32/cs2
+    user: "${UID}:${GID}"
     container_name: cs2
     environment:
       # Server
@@ -52,6 +53,8 @@ services:
 
     volumes:
       - ./data:/home/steam/cs2-dedicated
+      - /etc/passwd:/etc/passwd:ro
+      - /etc/group:/etc/group:ro
 
     ports:
       - "27015:27015/tcp"

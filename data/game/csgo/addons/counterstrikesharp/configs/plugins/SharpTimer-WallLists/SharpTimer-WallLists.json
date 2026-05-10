@@ -46,7 +46,7 @@
   "TimeBasedUpdate": false,
   "UpdateInterval": 300,
   "RecordStyle": "0",
-  "DefaultMode": "85t",
+  "DefaultMode": "Standard",
   "EnableBackground": true,
   "BackgroundWidth": 30.0,
   "RemoveDistance": 200,
