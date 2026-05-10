@@ -2,9 +2,9 @@
   "DatabaseType": 2,
   "DatabaseSettings": {
     "host": "../../../../../cfg/SharpTimer/database.db",
-    "database": "database",
-    "username": "user",
-    "password": "password",
+    "database": "",
+    "username": "",
+    "password": "",
     "port": 3306,
     "sslmode": "none",
     "table-prefix": ""
