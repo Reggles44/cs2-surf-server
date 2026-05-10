@@ -1,7 +1,7 @@
 {
   "DatabaseType": 2,
   "DatabaseSettings": {
-    "host": "localhost",
+    "host": "../../../../../cfg/SharpTimer/database.db",
     "database": "database",
     "username": "user",
     "password": "password",
